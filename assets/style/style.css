@@ -14,6 +14,15 @@ h1{
   font-weight: 900;
 }
 
+h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
 ul{
   list-style: none;
 }
@@ -28,8 +37,8 @@ img{
   margin: 0 auto;
 }
 
-.small-container{
-
+.container.small-container{
+  max-width: 1000px;
 }
 
 .debug{
@@ -37,8 +46,17 @@ img{
   border: 1px dashed greenyellow;
 }
 
+.debug-2{
+  background-color: rgba(0, 255, 0, .2);
+  border: 1px dashed yellow;
+}
+
 .d-flex{
   display: flex;
+}
+
+.mb-20{
+  margin-bottom: 20px;
 }
 
 .mb-30{
@@ -53,6 +71,10 @@ img{
   margin-bottom: 60px;
 }
 
+.mt-160{
+  margin-top: 160px;
+}
+
 .btn{
   display: inline-block;
   padding: 7px 16px;
@@ -64,6 +86,20 @@ img{
 
 .btn.btn-big{
   padding: 12px 16px;
+}
+
+.radio{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  border: 2px solid rgb(210, 210, 212);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.radio.active{
+  border: 5px solid rgb(0, 98, 255);
 }
 
 /* header */
@@ -110,11 +146,7 @@ section.jumbotron{
 }
 
 section.jumbotron div.container{
-  padding-top: 90px;
-}
-
-section.jumbotron .jumbo-content{
-
+  padding-top: 80px;
 }
 
 section.jumbotron .jumbo-content .jumbo-text{
@@ -132,4 +164,92 @@ section.jumbotron .jumbo-content .jumbo-img{
 
 section.jumbotron .jumbo-content .jumbo-img img{
   width: 92%;
+}
+
+/* main */
+
+main #plan{
+  font-size: .9rem;
+}
+
+main .billing-type{
+  display: inline-block;
+  height: 20px;
+  margin-right: 40px;
+}
+
+main .plan-box{
+  justify-content: space-between;
+}
+
+main .column{
+  width: calc(100% / 3 - 30px);
+  min-height: 100%;
+}
+
+main .column .plan-type,
+main .row .plan-type{
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(210, 210, 212);
+}
+
+main .column .plan-type .plan-title,
+main .row .plan-type .plan-title{
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 1px solid rgb(210, 210, 212);
+}
+
+main .column .plan-type .plan-content,
+main .row .plan-type .plan-content{
+  padding: 30px 25px;
+}
+
+main .column .plan-type .plan-content > div:nth-child(3){
+  margin-top: 10px;
+  font-weight: 600;
+  color: rgb(105, 105, 105);
+}
+
+main .column .plan-type .plan-content ul li i{
+  padding: 2px 5px 0 0;
+}
+
+main .column .plan-type .plan-content ul li.check i{
+  color: rgb(0, 98, 255);
+}
+
+main .column .plan-type .plan-content .plan-btn{
+  width: 100%;
+  text-align: center;
+}
+
+main .column .plan-type .plan-content .plan-btn a{
+  width: 100%;
+  max-width: 250px;
+}
+
+main .column .plan-type .plan-content .buy-now div:first-child{
+  display: inline-block;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgb(210, 210, 212);
+}
+
+main .row{
+  width: 100%;
+}
+
+main .row .plan-content-right{
+  width: 30%;
+}
+
+main .row .plan-content .plan-content-right {
+  justify-content: flex-end;
+}
+
+main .row .plan-content .plan-content-right .plan-btn,
+main .row .plan-content .plan-content-right .plan-btn a{
+  width: 100%;
+  max-width: 250px;
 }
