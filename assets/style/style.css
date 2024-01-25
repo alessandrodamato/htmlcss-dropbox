@@ -12,11 +12,14 @@ body{
 h1{
   font-size: 5rem;
   font-weight: 900;
-  margin-bottom: 50px;
 }
 
 ul{
   list-style: none;
+}
+
+img{
+  width: 100%;
 }
 
 .container{
@@ -44,6 +47,10 @@ ul{
 
 .mb-50{
   margin-bottom: 50px;
+}
+
+.mb-60{
+  margin-bottom: 60px;
 }
 
 .btn{
@@ -103,15 +110,16 @@ section.jumbotron{
 }
 
 section.jumbotron div.container{
-  padding-top: 100px;
+  padding-top: 90px;
 }
 
 section.jumbotron .jumbo-content{
-  
+
 }
 
 section.jumbotron .jumbo-content .jumbo-text{
   width: 30%;
+  height: fit-content;
 }
 
 section.jumbotron .jumbo-content .jumbo-text div:last-child i{
@@ -120,4 +128,8 @@ section.jumbotron .jumbo-content .jumbo-text div:last-child i{
 
 section.jumbotron .jumbo-content .jumbo-img{
   width: 70%;
+}
+
+section.jumbotron .jumbo-content .jumbo-img img{
+  width: 92%;
 }
