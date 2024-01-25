@@ -6,12 +6,13 @@
 
 body{
   font-family:'Open Sans', sans-serif;
+  font-weight: 500;
 }
 
 h1{
   font-size: 5rem;
   font-weight: 900;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 ul{
@@ -37,6 +38,14 @@ ul{
   display: flex;
 }
 
+.mb-30{
+  margin-bottom: 30px;
+}
+
+.mb-50{
+  margin-bottom: 50px;
+}
+
 .btn{
   display: inline-block;
   padding: 7px 16px;
@@ -44,6 +53,10 @@ ul{
   text-align: center;
   background-color: rgb(0, 98, 255);
   color: white;
+}
+
+.btn.btn-big{
+  padding: 12px 16px;
 }
 
 /* header */
@@ -90,7 +103,7 @@ section.jumbotron{
 }
 
 section.jumbotron div.container{
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 section.jumbotron .jumbo-content{
@@ -98,9 +111,13 @@ section.jumbotron .jumbo-content{
 }
 
 section.jumbotron .jumbo-content .jumbo-text{
-  width: 25%;
+  width: 30%;
+}
+
+section.jumbotron .jumbo-content .jumbo-text div:last-child i{
+  font-size: 50px;
 }
 
 section.jumbotron .jumbo-content .jumbo-img{
-  width: 75%;
+  width: 70%;
 }
