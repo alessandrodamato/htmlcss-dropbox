@@ -55,6 +55,10 @@ img{
   display: flex;
 }
 
+.pb-60{
+  padding-bottom: 60px;
+}
+
 .mb-20{
   margin-bottom: 20px;
 }
@@ -119,6 +123,10 @@ img{
 
 .radio.active{
   border: 5px solid rgb(0, 98, 255);
+}
+
+.bb-1g{
+  border-bottom: 1px solid rgb(153, 153, 153);
 }
 
 /* header */
@@ -393,10 +401,67 @@ main .sponsor-bottom .sponsor-bottom-block{
   align-items: center;
 }
 
+main .sponsor-bottom-left h2 {
+  color: rgb(97, 8, 43);
+}
+
 main .sponsor-bottom-block.sponsor-bottom-right{
   justify-content: flex-end;
 }
 
-.sponsor-bottom-left h2 {
-  color: rgb(97, 8, 43);
+main .question-row{
+  padding: 50px 0;
+  justify-content: space-between;
+}
+
+main .arrow{
+  padding-right: 50px;
+}
+
+/* footer */
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+footer .footer-top{
+  padding-top: 110px;
+}
+
+footer .footer-top .footer-list{
+  width: calc(100% / 5);
+  padding-bottom: 110px;
+}
+
+footer .footer-top .footer-list ul li:first-child{
+  padding-bottom: 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+footer .footer-top .footer-list ul li{
+  padding-bottom: 20px;
+}
+
+footer .footer-top .footer-list ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+footer .footer-top .footer-list ul li a:hover{
+  text-decoration: underline;
+}
+
+footer .footer-border{
+  width: 130px;
+  border-bottom: 1px solid white;
+}
+
+footer .footer-bottom{
+  color: rgb(153, 153, 153);
+}
+
+footer .footer-bottom > div{
+  padding: 60px 0;
 }
