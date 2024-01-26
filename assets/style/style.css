@@ -325,6 +325,11 @@ main .sponsor-box .sponsor-type{
   justify-content: center;
 }
 
+main .sponsor-box .sponsor-type:hover{
+  cursor: pointer;
+  border: 15px solid rgba(255, 255, 255, .5);
+}
+
 main .sponsor-box .sponsor-type img{
   width: 50%;
   filter: invert(100%);
