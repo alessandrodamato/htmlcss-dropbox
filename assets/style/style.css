@@ -291,3 +291,29 @@ main .card-box{
 main .card-box .card{
   width: calc(100% / 3 - 30px);
 }
+
+main .sponsor-box{
+  width: calc(100vw / 3);
+  aspect-ratio: 1 / 1;
+  flex-wrap: wrap;
+  background-color: brown;
+}
+
+main .sponsor-box .sponsor-type{
+  width: 50%;
+  height: 50%;
+  background-color: aqua;
+}
+
+main .sponsor-box .sponsor-bio{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: grey;
+}
+
+main .sponsor-bottom{
+  width: 100%;
+  height: 360px;
+  background-color: fuchsia;
+}
