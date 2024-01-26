@@ -92,10 +92,19 @@ img{
   padding: 12px 16px;
 }
 
+.btn.btn-large{
+  padding: 12px 60px;
+}
+
 .btn.btn-trasparent{
   background-color: transparent;
   border: 1px solid black;
   color: black;
+}
+
+.btn.btn-white{
+  color: black;
+  background-color: white;
 }
 
 .radio{
@@ -296,24 +305,98 @@ main .sponsor-box{
   width: calc(100vw / 3);
   aspect-ratio: 1 / 1;
   flex-wrap: wrap;
-  background-color: brown;
 }
 
 main .sponsor-box .sponsor-type{
   width: 50%;
   height: 50%;
-  background-color: aqua;
+  justify-content: center;
 }
 
-main .sponsor-box .sponsor-bio{
+main .sponsor-box .sponsor-type img{
+  width: 50%;
+  filter: invert(100%);
+}
+
+main .sponsor-box .sponsor-type.active{
+  border: 15px solid rgba(255, 255, 255, .5);
+}
+
+main .sponsor-box .sponsor-active{
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: grey;
+  padding: 50px;
+  background-color: rgb(245, 245, 245);
+}
+
+main .sponsor-box .sponsor-active .sponsor-logo img{
+  width: 250px;
+}
+
+#uf img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main .sponsor-box .sponsor-active .logo-border{
+  width: 100px;
+  border-bottom: 1px solid rgb(210, 210, 212);
+}
+
+/* sponsor list - colors */
+
+#design{
+  background-color: rgb(161, 212, 155);
+}
+
+#asu{
+    background-color: rgb(97, 8, 43);
+}
+
+#uf{
+  background-color: rgb(0, 148, 207);
+  position: relative;
+}
+
+#topps{
+  background-color: rgb(255, 28, 28);
+}
+
+#wbr{
+  background-color: rgb(214, 0, 32);
+}
+
+#hearst{
+  background-color: rgb(181, 209, 232);
+}
+
+#lonely{
+  background-color: rgb(13, 36, 130);
+}
+
+#cco{
+  background-color: rgb(255, 217, 48);
 }
 
 main .sponsor-bottom{
   width: 100%;
   height: 360px;
-  background-color: fuchsia;
+  background-color: rgb(181, 209, 232);
+}
+
+main .sponsor-bottom .sponsor-bottom-block{
+  width: 50%;
+  height: 360px;
+  align-items: center;
+}
+
+main .sponsor-bottom-block.sponsor-bottom-right{
+  justify-content: flex-end;
+}
+
+.sponsor-bottom-left h2 {
+  color: rgb(97, 8, 43);
 }
