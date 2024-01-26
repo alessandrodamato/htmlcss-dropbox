@@ -418,8 +418,31 @@ main .question-row{
   justify-content: space-between;
 }
 
-main .arrow{
+main .question-container{
+  justify-content: space-between;
+}
+
+main .arrow-down{
   padding-right: 50px;
+}
+
+main .answer{
+  display: none;
+  padding-top: 50px;
+}
+
+main .arrow-up{
+  display: none;
+  padding-right: 50px;
+}
+
+main .question-row:hover .answer,
+main .question-row:hover .arrow-up{
+  display: inline-block;
+}
+
+main .question-row:hover .arrow-down{
+  display: none;
 }
 
 /* footer */
