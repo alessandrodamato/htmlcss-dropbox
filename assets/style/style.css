@@ -88,7 +88,7 @@ img{
   padding: 7px 16px;
   text-decoration: none;
   text-align: center;
-  transition: all 1s;
+  transition: .5s;
   background-color: rgb(0, 98, 255);
   color: white;
 }
@@ -420,8 +420,11 @@ main .sponsor-bottom-block.sponsor-bottom-right{
 }
 
 main .question-row{
+  height: 120px;
   padding: 50px 0;
   justify-content: space-between;
+  overflow: hidden;
+  transition: .5s;
 }
 
 main .question-container{
@@ -433,7 +436,6 @@ main .arrow-down{
 }
 
 main .answer{
-  display: none;
   padding-top: 50px;
 }
 
@@ -442,7 +444,10 @@ main .arrow-up{
   padding-right: 50px;
 }
 
-main .question-row:hover .answer,
+main .question-row:hover{
+  height: 220px;
+}
+
 main .question-row:hover .arrow-up{
   display: inline-block;
 }
