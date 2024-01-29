@@ -327,7 +327,7 @@ main .sponsor-box .sponsor-type{
 
 main .sponsor-box .sponsor-type:hover{
   cursor: pointer;
-  border: 15px solid rgba(255, 255, 255, .5);
+  box-shadow: 0 0 0 15px rgba(255, 255, 255, .5) inset;
 }
 
 main .sponsor-box .sponsor-type img{
@@ -336,7 +336,7 @@ main .sponsor-box .sponsor-type img{
 }
 
 main .sponsor-box .sponsor-type.active{
-  border: 15px solid rgba(255, 255, 255, .5);
+  box-shadow: 0 0 0 15px rgba(255, 255, 255, .5) inset;
 }
 
 main .sponsor-box .sponsor-active{
